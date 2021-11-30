@@ -44,11 +44,10 @@ public class Shop {
 
     public void displayItems(ArrayList<Shop> arr) {
         for (Shop shop : arr) {
-            System.out.println("+------------------------------------+");
-            System.out.println("Item No: " + shop.item_no);
-            System.out.println("Item Name: " + shop.item_name);
-            System.out.println("Item Price: " + shop.item_price);
-            System.out.println("+------------------------------------+");
+            System.out.println("+---------------------------------------------------------------------+");
+            System.out.println("Item No\t\t Item Name\t\t Item Price");
+            System.out.println(shop.item_no + "\t\t\t " + shop.item_name + "\t\t\t " + shop.item_price);
+            System.out.println("+---------------------------------------------------------------------+");
         }
     }
 }
